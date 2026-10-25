@@ -1,0 +1,13 @@
+/**
+ * 模板全程用内联样式，不依赖任何 CSS 框架。
+ * 下面这条必须留着：某些环境（例如引入了 Tailwind 的 preflight）会给 img/video 加
+ * max-width:100%，一旦放大截图就会被横向压扁、高度不变——这是踩过的坑。
+ */
+img,
+video {
+  max-width: none;
+}
+
+* {
+  box-sizing: border-box;
+}

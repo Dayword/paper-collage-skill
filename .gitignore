@@ -1,0 +1,10 @@
+# 系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 临时
+.tmp_work/
+*.log
+
+# 模板工程自己的忽略规则在 template/.gitignore
